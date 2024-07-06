@@ -1,0 +1,12 @@
+@mixin df($justify: center, $align: center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: row;
+}
+@mixin dfc($justify: center, $align: center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: column;
+}
