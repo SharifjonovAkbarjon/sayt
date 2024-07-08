@@ -39,3 +39,22 @@ font-size: 18px;
 color: rgb(255,255,255,1);
 border: none;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    transition: .7s;
+    width: 300px;
+    height: 100%;
+    background: rgb(104, 126, 148);
+    left: -300px;
+    opacity: 50%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar.show{
+    left: 0;
+}
